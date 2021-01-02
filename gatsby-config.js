@@ -23,8 +23,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Henry Vuong's Website`,
-        short_name: `Henry's Website`,
+        name: `Calvin Wu's Website`,
+        short_name: `Calvin's Website`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#02aab0`,

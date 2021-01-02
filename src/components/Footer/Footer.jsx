@@ -16,7 +16,7 @@ const Footer = () => {
         </span>
         
         <hr />
-        <h5>Made with React, Gatsby, and Love in Laredo</h5>
+        <h5>Made with React and Gatsby</h5>
         <p className="footer__text">
           © {new Date().getFullYear()}
         </p>
