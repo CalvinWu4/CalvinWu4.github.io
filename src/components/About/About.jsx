@@ -31,7 +31,7 @@ const About = () => {
             <Fade bottom duration={1000} delay={600} distance="30px">
               <div className="about-wrapper__image">
                 {/* <AboutImg alt="profile picture" filename={img} /> */}
-                <img src={profileImage} id="profile-pic"></img>
+                <img src={profileImage} id="profile-pic" />
               </div>
             </Fade>
           </Col>
@@ -49,6 +49,15 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                   {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
                 </p>
+                <iframe
+                  title="strava"
+                  height="160"
+                  width="300"
+                  frameBorder="0"
+                  allowtransparency="true"
+                  scrolling="no"
+                  src="https://www.strava.com/athletes/73621640/activity-summary/0bf146bcd10afb23349fc2e7ea920afa69770ca4"
+                />
                 {resume && (
                   <span className="d-flex mt-3">
                     <a
