@@ -87,7 +87,7 @@ export const experiencesData = [
     url: 'https://stuy.enschool.org/',
     date: 'Class of 2015',
     color: '#21366d',
-    description: `If it weren't for Stuyvesant inspiring a love of learning in me, I wouldn't be the person I am today consuming classics, the Economist, online Yale lectures, and Intelligence Squared debates. I also left this school deeply influenced by its go-getter culture.`,
+    description: `If it hadn't been for Stuyvesant inspiring a love of learning in me, I wouldn't be the person I am today enjoying the classics, museums, and The Economist/New Yorker. I also left this school deeply influenced by its go-getter culture.`,
   },
 ];
 
