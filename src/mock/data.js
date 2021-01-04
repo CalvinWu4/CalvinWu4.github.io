@@ -8,7 +8,7 @@ import rateMyProfessorRit from '../images/rate-my-professor-rit.png';
 
 // HEAD DATA
 export const headData = {
-  title: 'Calvin Wu | RIT Grad', // e.g: 'Name | Developer'
+  title: 'Calvin Wu', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -54,7 +54,7 @@ export const experiencesData = [
     url: 'https://www.rit.edu/',
     date: 'Class of 2020',
     color: '#F76902',
-    description: `I came here as a business major because even though I liked coding, I wasn't confident in my skills in it from high school. However, I quickly decided that I didn't want to take the easy road in life and switched to software engineering. Despite the brutal winters and stressful workloads, I really enjoyed the nerd culture and suburban change of life that I experienced while attending RIT.`,
+    description: `I entered here as a business major because even though I liked coding, I wasn't confident in my skills in it from high school. However, I quickly decided that I didn't want to take the easy road in life and switched to software engineering. Despite the brutal winters and stressful workloads, I really enjoyed the nerd culture and suburban peacefulness I experienced while attending RIT.`,
   },
   {
     id: nanoid(),
@@ -65,7 +65,7 @@ export const experiencesData = [
     url: 'https://www.espn.com/',
     date: 'Sept 2019 - Dec 2019',
     color: '#CD242E',
-    description: `What a time! Disney hooked us interns with a hotel and I had just gotten my driver's license. I also loved being able to work on a product that was fun and that I actually cared about since I'm a big sports and especially soccer fan.`,
+    description: `What a time! We interns shared a hotel and I had just gotten my driver's license. I also loved being able to work on a product that was fun and that I actually cared about since I'm a big sports and especially soccer fan.`,
   },
   {
     id: nanoid(),
@@ -76,7 +76,7 @@ export const experiencesData = [
     url: 'https://www.trinitywallstreet.org/',
     date: 'Jun 2018 - Sep 2019',
     color: 'black',
-    description: `If you're wondering why a church has a IT department, it's because Trinity was given land by the queen in 1697 and is now a non-profit enterprise and real estate developer. I worked as a sole developer but I appreciated being able to make design decisions and work across all parts of the stack. It was here that I first learned front-end development. I was also proud to be on an intern team that created ideas for Trinity Church's new community center.`,
+    description: `If you're wondering why a church has a IT department, it's because Trinity was given land by the queen in 1697 and is now a non-profit enterprise funded by its real estate holdings. It was lonely being a solo developer but I appreciated being able to work across all parts of the stack and to make design decisions. It was here that I first learned front-end development. I'm also proud to have been on an intern team that created ideas for Trinity Church's new community center.`,
   },
   {
     id: nanoid(),
