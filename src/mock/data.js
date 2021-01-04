@@ -37,7 +37,8 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: 'Recent RIT grad and life-long New Yorker',
-  paragraphTwo: 'I love books, running, video games (esp. Overwatch), and angsty songs.',
+  paragraphTwo:
+    'I love books (esp. classics), running, video games (esp. Overwatch), and angsty songs.',
   paragraphThree: `Fun fact: I'm a huge journalism and politics junkie. I live for ideas and debate. I even follow international politics.`,
   resume: 'https://1drv.ms/b/s!AoKuSnGKEVCrhPwEG8aBxPOhirwYEw', // if no resume, the button will not show up
 };
@@ -53,20 +54,18 @@ export const experiencesData = [
     url: 'https://www.rit.edu/',
     date: 'Class of 2020',
     color: '#F76902',
-    description:
-      '',
+    description: `I came here as a business major because even though I liked coding, I wasn't confident in my skills in it from high school. However, I quickly decided that I didn't want to take the easy road in life and switched to software engineering. Despite the brutal winters and stressful workloads, I really enjoyed the nerd culture and suburban change of life that I experienced while attending RIT.`,
   },
   {
     id: nanoid(),
     img: espn,
     organization: 'ESPN (Disney DTCI)',
-    title: 'Software Engineer Intern',
+    title: 'Front End Software Engineer Intern',
     location: 'Bristol, Connecticut',
     url: 'https://www.espn.com/',
     date: 'Sept 2019 - Dec 2019',
     color: '#CD242E',
-    description:
-      '',
+    description: `What a time! Disney hooked us interns with a hotel and I had just gotten my driver's license. I also loved being able to work on a product that was fun and that I actually cared about since I'm a big sports and especially soccer fan.`,
   },
   {
     id: nanoid(),
@@ -77,8 +76,7 @@ export const experiencesData = [
     url: 'https://www.trinitywallstreet.org/',
     date: 'Jun 2018 - Sep 2019',
     color: 'black',
-    description:
-      '',
+    description: `If you're wondering why a church has a IT department, it's because Trinity was given land by the queen in 1697 and is now a non-profit enterprise and real estate developer. I worked as a sole developer but I appreciated being able to make design decisions and work across all parts of the stack. It was here that I first learned front-end development. I was also proud to be on an intern team that created ideas for Trinity Church's new community center.`,
   },
   {
     id: nanoid(),
@@ -89,8 +87,7 @@ export const experiencesData = [
     url: 'https://stuy.enschool.org/',
     date: 'Class of 2015',
     color: '#21366d',
-    description:
-      '',
+    description: `If it weren't for Stuyvesant inspiring a love of learning in me, I wouldn't be the person I am today consuming classics, the Economist, online Yale lectures, and Intelligence Squared debates. I also left this school deeply influenced by its go-getter culture.`,
   },
 ];
 
@@ -100,10 +97,9 @@ export const projectsData = [
     id: nanoid(),
     img: inDoors,
     title: 'inDoors',
-    info: '',
-    info2:
-      '',
-    url: 'https://chrome.google.com/webstore/detail/indoors-show-glassdoor-ra/eapcedpgnlmgkigiieacngkpdjikfgci?hl=en&authuser=0',
+    info: `An extension that displays companies' Glassdoor ratings on LinkedIn and other job sites.`,
+    info2: `This was the first extension that I made and it was out of frustration from constantly searching companies on Glassdoor while applying to jobs. I received lots of love from r/cscareerquestions for making this extension which motivated me to continue doing open-source work.`,
+    url: 'https://github.com/CalvinWu4/inDoors',
     repo: 'https://github.com/CalvinWu4/inDoors', // if no repo, the button will not show up
     achievement: '350+ Users, 500+ Installs, 1500+ Views',
   },
@@ -112,12 +108,12 @@ export const projectsData = [
     img: rateMyProfessorRit,
     title: 'RIT Rate My Professors',
     info:
-      '',
+      'An extension for RIT students that shows the Rate My Professors rating of professors while searching classes.',
     info2:
-      '',
-    url: 'https://chrome.google.com/webstore/detail/rate-my-professors-for-ri/lcionigofpcbfpmnipnioapimoggnbda?hl=en&authuser=0',
+      'I noticed that there exists dozens of Rate My Professor extensions created for colleges by their students but not RIT even though we have so many CS nerds. Despite having already gradauted, I decided to create the best iteration of this extension yet as a thank you to my alma mater.',
+    url: 'https://github.com/CalvinWu4/RIT-Rate-My-Professor-Extension',
     repo: 'https://github.com/CalvinWu4/RIT-Rate-My-Professor-Extension', // if no repo, the button will not show up
-    achievement: '150+ Users, 250+ Installs, 3000+ Views',
+    achievement: '175+ Users, 250+ Installs, 3000+ Views',
   },
 ];
 
