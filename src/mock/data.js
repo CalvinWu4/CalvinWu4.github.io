@@ -40,7 +40,7 @@ export const aboutData = {
   paragraphTwo:
     'I love books (esp. classics), running, video games (esp. Overwatch), and angsty songs.',
   paragraphThree: `Fun fact: I'm a huge journalism and politics junkie. I live for ideas and debate. I even follow international politics.`,
-  resume: 'https://1drv.ms/b/s!AoKuSnGKEVCrhPwEG8aBxPOhirwYEw', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // EXPERIENCE DATA
