@@ -3,7 +3,7 @@ import rit from '../images/rit.jpg';
 import trinityChurch from '../images/trinity-church.jpg';
 import espn from '../images/espn.jpg';
 import stuyvesant from '../images/stuyvesant.jpg';
-import inDoors from '../images/inDoors.jpg';
+import inDoors from '../images/inDoors.png';
 import rateMyProfessorRit from '../images/rate-my-professor-rit.png';
 
 // HEAD DATA
