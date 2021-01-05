@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: "",
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
@@ -32,13 +31,5 @@ module.exports = {
         icon: 'src/images/favicon.png',
       },
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-106141735-1",
-        head: true,
-        anonymize: true,
-      },
-    }
   ],
 };

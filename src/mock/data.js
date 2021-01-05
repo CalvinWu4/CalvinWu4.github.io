@@ -15,22 +15,10 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
+  title: `Hi, I'm`,
   name: 'Calvin',
-  subtitle: '',
+  subtitle: `I'm a software engineering new grad`,
   cta: '',
-  networks: [
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: 'https://www.linkedin.com/in/calvin-wu/',
-    },
-    {
-      id: nanoid(),
-      name: 'github',
-      url: 'https://github.com/calvinwu4',
-    },
-  ],
 };
 
 // ABOUT DATA
@@ -39,8 +27,8 @@ export const aboutData = {
   paragraphOne: 'Recent RIT grad and life-long New Yorker',
   paragraphTwo:
     'I love books (esp. classics), running, video games (esp. Overwatch), and angsty songs.',
-  paragraphThree: `Fun fact: I'm a huge journalism and politics junkie. I live for ideas and debate. I even follow international politics.`,
-  resume: '', // if no resume, the button will not show up
+  paragraphThree: `⚡ Fun fact: I'm a huge journalism and politics junkie. I live for ideas and debate. I even follow international politics.`,
+  resume: 'https://1drv.ms/b/s!AoKuSnGKEVCrhPwEG8aBxPOhirwYEw', // if no resume, the button will not show up
 };
 
 // EXPERIENCE DATA
@@ -95,7 +83,7 @@ export const experiencesData = [
 export const projectsData = [
   {
     id: nanoid(),
-    img: inDoors,
+    img: 'inDoors.png',
     title: 'inDoors',
     info: `An extension that displays companies' Glassdoor ratings on LinkedIn and other job sites.`,
     info2: `This was the first extension that I made and it was out of frustration from constantly searching companies on Glassdoor while applying to jobs. I received lots of love from r/cscareerquestions for making this extension which motivated me to continue doing open-source work.`,
@@ -105,7 +93,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: rateMyProfessorRit,
+    img: 'rate-my-professor-rit.png',
     title: 'RIT Rate My Professors',
     info:
       'An extension for RIT students that shows the Rate My Professors rating of professors while searching classes.',
@@ -119,12 +107,28 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Feel free to email me about job opportunities or ideas.',
-  btn: '',
+  cta: 'Feel free to email me about job opportunities or ideas',
+  btn: 'Email',
   email: 'calvinwu4@gmail.com',
+};
+
+// FOOTER DATA
+export const footerData = {
+  networks: [
+    {
+      id: nanoid(),
+      name: 'linkedin',
+      url: 'https://www.linkedin.com/in/calvin-wu/',
+    },
+    {
+      id: nanoid(),
+      name: 'github',
+      url: 'https://github.com/CalvinWu4',
+    },
+  ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
