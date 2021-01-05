@@ -53,10 +53,6 @@ const About = () => {
                   {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  📚 I'm currently reading:
-                  <div dangerouslySetInnerHTML={{ __html: goodreadsWidget }} />
-                </p>
-                <p className="about-wrapper__info-text">
                   🏃 Follow me as I try to maintain my daily 5K streak:
                   <iframe
                     title="strava"
@@ -67,6 +63,10 @@ const About = () => {
                     scrolling="no"
                     src="https://www.strava.com/athletes/73621640/activity-summary/0bf146bcd10afb23349fc2e7ea920afa69770ca4"
                   />
+                </p>
+                <p className="about-wrapper__info-text">
+                  📚 I'm currently reading:
+                  <div dangerouslySetInnerHTML={{ __html: goodreadsWidget }} />
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
