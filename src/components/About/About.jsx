@@ -8,6 +8,9 @@ import profileImage from '../../images/profile.jpg';
 const About = () => {
   const { about } = useContext(PortfolioContext);
   const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const goodreadsWidget = `<a href="https://www.goodreads.com/user/show/122258550-calvin-wu">
+    <img width="50" alt="Book Cover" src="https://www.goodreads.com/user/email_signature_cover/122258550">
+  </a>`;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -49,15 +52,22 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                   {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
                 </p>
-                <iframe
-                  title="strava"
-                  height="160"
-                  width="300"
-                  frameBorder="0"
-                  allowtransparency="true"
-                  scrolling="no"
-                  src="https://www.strava.com/athletes/73621640/activity-summary/0bf146bcd10afb23349fc2e7ea920afa69770ca4"
-                />
+                <p className="about-wrapper__info-text">
+                  📚 I'm currently reading:
+                  <div dangerouslySetInnerHTML={{ __html: goodreadsWidget }} />
+                </p>
+                <p className="about-wrapper__info-text">
+                  🏃 Follow me as I try to maintain my daily 5K streak:
+                  <iframe
+                    title="strava"
+                    height="160"
+                    width="300"
+                    frameBorder="0"
+                    allowtransparency="true"
+                    scrolling="no"
+                    src="https://www.strava.com/athletes/73621640/activity-summary/0bf146bcd10afb23349fc2e7ea920afa69770ca4"
+                  />
+                </p>
                 {resume && (
                   <span className="d-flex mt-3">
                     <a
