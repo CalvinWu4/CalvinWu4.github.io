@@ -23,7 +23,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: 'Recent RIT grad and life-long New Yorker',
-  paragraphTwo: `In my free time, I love reading books (esp. classics), running, playing video games (esp. Overwatch), and listening to angsty songs. I also enjoy occassionally hiking, biking, and playing badminton.`,
+  paragraphTwo: `In my free time, I love reading, running, playing video games (esp. Overwatch), and listening to angsty songs. I also enjoy occassionally hiking, biking, and playing badminton.`,
   paragraphThree: `⚡ Fun fact: I'm a huge journalism and politics junkie. I live for ideas and debate. I even follow international politics.`,
   resume: 'https://1drv.ms/b/s!AoKuSnGKEVCrhPwEG8aBxPOhirwYEw', // if no resume, the button will not show up
 };
