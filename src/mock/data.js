@@ -98,7 +98,7 @@ export const projectsData = [
     info:
       'An extension for RIT students that shows the Rate My Professors rating of professors while searching classes.',
     info2:
-      'I noticed that there exists dozens of Rate My Professor extensions created for colleges by their students but not RIT even though we have so many CS nerds. Despite having already gradauted, I decided to create the best iteration of this extension yet as a thank you to my alma mater.',
+      'I noticed that there are dozens of Rate My Professor extensions out there created for different colleges by their students, but RIT not being one of them. Despite having already graduated, I decided to create the best version of this extension yet as a thank you to my alma mater.',
     url: 'https://github.com/CalvinWu4/RIT-Rate-My-Professor-Extension',
     repo: 'https://github.com/CalvinWu4/RIT-Rate-My-Professor-Extension', // if no repo, the button will not show up
     achievement: '175+ Users, 250+ Installs, 3000+ Views',
