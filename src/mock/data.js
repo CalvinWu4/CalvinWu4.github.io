@@ -114,13 +114,23 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'linkedin',
+      name: 'linkedin-in',
       url: 'https://www.linkedin.com/in/calvin-wu/',
     },
     {
       id: nanoid(),
       name: 'github',
       url: 'https://github.com/CalvinWu4',
+    },
+    {
+      id: nanoid(),
+      name: 'goodreads-g',
+      url: 'goodreads.com/calvinwu',
+    },
+    {
+      id: nanoid(),
+      name: 'strava',
+      url: 'https://www.strava.com/athletes/calvinwu',
     },
   ],
 };
