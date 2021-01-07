@@ -93,7 +93,7 @@ const About = () => {
                   {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  📚 Follow my pandemic-borne life's goal to read the great books:
+                  📚 Follow my pandemic-borne life mission to read the great books:
                   <div dangerouslySetInnerHTML={{ __html: goodreadsWidget }} />
                 </p>
                 {resume && (
