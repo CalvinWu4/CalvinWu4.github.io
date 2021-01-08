@@ -85,7 +85,6 @@ export const projectsData = [
     info: `An extension that displays companies' Glassdoor ratings on LinkedIn and other job sites.`,
     info2: `This was the first extension that I made and it was out of frustration from constantly searching companies on Glassdoor while applying to jobs. I received lots of love from r/cscareerquestions for making this extension which motivated me to continue doing open-source work.`,
     url: 'https://github.com/CalvinWu4/inDoors',
-    repo: 'https://github.com/CalvinWu4/inDoors', // if no repo, the button will not show up
     achievement: '350+ Users, 500+ Installs, 1500+ Views',
   },
   {
@@ -96,18 +95,16 @@ export const projectsData = [
       'An extension for RIT students that shows the Rate My Professors rating of professors while searching for classes.',
     info2:
       'I noticed that there are dozens of Rate My Professor extensions out there created for different colleges by their students. Despite having already graduated, I decided to create the best version of this extension yet as a thank you to my alma mater.',
-    url: 'https://github.com/CalvinWu4/RIT-Rate-My-Professor-Extension',
-    repo: 'https://github.com/CalvinWu4/RIT-Rate-My-Professor-Extension', // if no repo, the button will not show up
+    url: 'https://github.com/CalvinWu4/RIT-Rate-My-Professors-Extension',
     achievement: '175+ Users, 250+ Installs, 3000+ Views',
   },
   {
     id: nanoid(),
     img: 'any-college.png',
-    title: 'Any School Rate My Professor Extension',
-    info: 'A school-agnostic version of the RIT Rate My Professors Extension that I made.',
-    info2: `To add support for their school's website, students fill out a community-sourced Airtable with the site's URL, CSS selector for the elements containing the professor names, and name of the school on ratemyprofessors.com. They can then go to the site and click on the extension which prompts for permission.`,
-    url: 'https://github.com/CalvinWu4/Any-School-Rate-My-Professor-Extension',
-    repo: 'https://github.com/CalvinWu4/Any-School-Rate-My-Professor-Extension', // if no repo, the button will not show up
+    title: 'Any School Rate My Professors Extension',
+    info: `A school-agnostic version of the RIT Rate My Professors Extension that I made. To add support for their college's website, students fill out a public Airtable with the site's URL, CSS selectors for the elements containing the professor names, and name of the college as can be found on ratemyprofessors.com. They can then go to the site and click on the extension which prompts for permission to add the ratings.`,
+    info2: `I wanted to bring to this extension to my friends who are attending other schools and save college students everywhere from having to create a Rate My Professors extension ever again.`,
+    url: 'https://github.com/CalvinWu4/Any-School-Rate-My-Professors-Extension',
     achievement: 'In Progress',
   },
 ];
