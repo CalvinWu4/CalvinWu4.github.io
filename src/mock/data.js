@@ -91,7 +91,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'rate-my-professor-rit.png',
-    title: 'RIT Rate My Professors',
+    title: 'RIT Rate My Professors Extension',
     info:
       'An extension for RIT students that shows the Rate My Professors rating of professors while searching for classes.',
     info2:
@@ -99,6 +99,16 @@ export const projectsData = [
     url: 'https://github.com/CalvinWu4/RIT-Rate-My-Professor-Extension',
     repo: 'https://github.com/CalvinWu4/RIT-Rate-My-Professor-Extension', // if no repo, the button will not show up
     achievement: '175+ Users, 250+ Installs, 3000+ Views',
+  },
+  {
+    id: nanoid(),
+    img: 'any-college.png',
+    title: 'Any School Rate My Professor Extension',
+    info: 'A school-agnostic version of the RIT Rate My Professors Extension that I made.',
+    info2: `To add support for their school's website, students fill out a community-sourced Airtable with the site's URL, CSS selector for the elements containing the professor names, and name of the school on ratemyprofessors.com. They can then go to the site and click on the extension which prompts for permission.`,
+    url: 'https://github.com/CalvinWu4/Any-School-Rate-My-Professor-Extension',
+    repo: 'https://github.com/CalvinWu4/Any-School-Rate-My-Professor-Extension', // if no repo, the button will not show up
+    achievement: 'In Progress',
   },
 ];
 
@@ -125,7 +135,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'goodreads-g',
-      url: 'goodreads.com/calvinwu',
+      url: 'https://www.goodreads.com/calvinwu',
     },
     {
       id: nanoid(),
