@@ -105,7 +105,6 @@ export const projectsData = [
     info: `A school-agnostic version of the RIT Rate My Professors Extension that I made. To add support for their college's website, students fill out a public Airtable with the site's URL, CSS selectors for the elements containing the professor names, and name of the college as can be found on ratemyprofessors.com. They can then go to the site and click on the extension which prompts for permission to add the ratings.`,
     info2: `I wanted to bring to this extension to my friends who are attending other schools and save college students everywhere from having to create a Rate My Professors extension ever again.`,
     url: 'https://github.com/CalvinWu4/Any-School-Rate-My-Professors-Extension',
-    achievement: 'In Progress',
   },
 ];
 
