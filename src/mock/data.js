@@ -85,7 +85,7 @@ export const projectsData = [
     info: `An extension that displays companies' Glassdoor ratings on LinkedIn and other job sites.`,
     info2: `This was the first extension that I made and it was out of frustration from constantly searching companies on Glassdoor while applying to jobs. I received lots of love from r/cscareerquestions for making this extension which motivated me to continue doing open-source work.`,
     url: 'https://github.com/CalvinWu4/inDoors',
-    achievement: '350+ Users, 500+ Installs, 1500+ Views',
+    achievement: '400+ Users, 500+ Installs, 2000+ Views',
   },
   {
     id: nanoid(),
@@ -96,7 +96,7 @@ export const projectsData = [
     info2:
       'I noticed that there are dozens of Rate My Professor extensions out there created for different colleges by their students. Despite having already graduated, I decided to create the best version of this extension yet as a thank you to my alma mater.',
     url: 'https://github.com/CalvinWu4/RIT-Rate-My-Professors-Extension',
-    achievement: '175+ Users, 250+ Installs, 3000+ Views',
+    achievement: '150+ Users, 250+ Installs, 3500+ Views',
   },
   {
     id: nanoid(),
