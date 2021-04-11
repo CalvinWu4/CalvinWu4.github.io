@@ -61,7 +61,7 @@ export const experiencesData = [
     url: 'https://www.trinitywallstreet.org/',
     date: 'Jun 2018 - Sep 2019',
     color: 'black',
-    description: `If you're wondering why a church has a IT department, it's because Trinity was given land by the queen in 1697 and is now a non-profit enterprise funded by its real estate projects. It was lonely being a solo developer but I appreciated being able to work across all parts of the stack and to make design decisions. It was here that I first learned front-end development. I'm also proud to have been on an intern team that created ideas for Trinity Church's new community center.`,
+    description: `If you're wondering why a church has an IT department, it's because Trinity was given a lot of land by the queen in 1705 and is now a non-profit enterprise funded by its real estate projects. It was lonely being a solo developer here but I appreciated being able to work across all parts of the stack and make design decisions. It was also here that I first learned front-end development. Lastly, I'm proud to have been on an intern team that came up with ideas for Trinity Church's new community center.`,
   },
   {
     id: nanoid(),
