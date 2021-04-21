@@ -85,7 +85,7 @@ const About = () => {
                 <p className="about-wrapper__info-text">{paragraphTwo}</p>
                 <p className="about-wrapper__info-text">{paragraphThree}</p>
                 <p className="about-wrapper__info-text">
-                  📚 Follow my pandemic-borne life mission to read the great books:
+                  📚 Follow my pandemic-borne life&apos;s mission to read the great books:
                   <div dangerouslySetInnerHTML={{ __html: goodreadsWidget }} />
                 </p>
                 {resume && (

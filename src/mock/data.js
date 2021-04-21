@@ -24,7 +24,7 @@ export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: 'Recent RIT grad and life-long New Yorker',
   paragraphTwo: `In my free time, I love reading, running, playing video games (esp. Overwatch), and listening to angsty songs. I also enjoy occassionally hiking, biking, and playing badminton.`,
-  paragraphThree: `⚡ Fun fact: I'm a huge journalism and politics junkie. I live for ideas and debate. I even follow international politics.`,
+  paragraphThree: `I'm most compatible with people who are interested in history, literature, politics, and philosophy. But, I also feel that life should be lived and not just thought about.`,
   resume: 'https://1drv.ms/b/s!AoKuSnGKEVCrhPwEG8aBxPOhirwYEw', // if no resume, the button will not show up
 };
 
