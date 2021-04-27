@@ -14,16 +14,16 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: `Hi, I'm`,
-  name: 'Calvin',
-  subtitle: `I'm a software engineering new grad`,
-  cta: '',
+  name: 'Calvin Wu',
+  subtitle: `I'm a developer`,
+  cta: 'Know more',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Recent RIT grad and life-long New Yorker',
-  paragraphTwo: `In my free time, I love reading, running, playing video games (esp. Overwatch), and listening to angsty songs. I also enjoy occassionally hiking, biking, and playing badminton.`,
+  paragraphOne: `I currently work at DocuSign and am a life-long New Yorker.`,
+  paragraphTwo: `In my free time, I love reading, running, video games (esp. Overwatch), game nights, biking, badminton, and being outside.`,
   paragraphThree: `I'm most compatible with people who are interested in history, literature, politics, and philosophy. But, I also feel that life should be lived and not just thought about.`,
   resume: 'https://1drv.ms/b/s!AoKuSnGKEVCrhPwEG8aBxPOhirwYEw', // if no resume, the button will not show up
 };
