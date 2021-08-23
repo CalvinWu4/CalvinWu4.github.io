@@ -23,7 +23,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: `I'm originally from New York but I recently moved to San Francisco to work for DocuSign.`,
-  paragraphTwo: `In my free time, I love reading, running, video games (esp. Overwatch), game nights, biking, badminton, and being outside.`,
+  paragraphTwo: `In my free time, I enjoy reading, running, biking, badminton, video games, thrifting, finding new recipes, and being outside.`,
   paragraphThree: `I'm most compatible with people who are interested in history, literature, politics, and philosophy. But, I also feel that life should be lived and not just thought about.`,
   resume: 'https://1drv.ms/b/s!AoKuSnGKEVCrhPwEG8aBxPOhirwYEw', // if no resume, the button will not show up
 };
