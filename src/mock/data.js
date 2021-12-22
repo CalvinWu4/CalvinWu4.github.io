@@ -22,7 +22,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: `I'm originally from New York but I recently moved to San Francisco to work for DocuSign.`,
+  paragraphOne: `I was born and raised in Brooklyn, New York but moved to San Francisco in May 2021 to work for DocuSign.`,
   paragraphTwo: `In my free time, I enjoy reading, running, biking, badminton, video games, thrifting, finding new recipes, and being outside.`,
   paragraphThree: `I'm most compatible with people who are interested in history, literature, politics, and philosophy. But, I also feel that life should be lived and not just thought about.`,
   resume: 'https://1drv.ms/b/s!AoKuSnGKEVCrhPwEG8aBxPOhirwYEw', // if no resume, the button will not show up
@@ -39,7 +39,7 @@ export const experiencesData = [
     url: 'https://www.rit.edu/',
     date: 'Class of 2020',
     color: '#F76902',
-    description: `I entered here as a business major because even though I liked coding, I wasn't confident in my skills in it from high school. However, I quickly decided that I didn't want to take the easy road in life and switched to software engineering. Despite the brutal winters and stressful workloads, I really enjoyed the nerd culture and suburban peacefulness I experienced while attending RIT.`,
+    description: `I entered here as a business major because I wasn't confident in my coding skills from high school, but soon decided to embrace the challenge of software engineering. Despite the brutal winters and stressful workloads, I really enjoyed the nerdy culture and suburban peacefulness at RIT.`,
   },
   {
     id: nanoid(),
@@ -50,7 +50,7 @@ export const experiencesData = [
     url: 'https://www.espn.com/',
     date: 'Sept 2019 - Dec 2019',
     color: '#CD242E',
-    description: `What a time! We interns shared a hotel and I had just gotten my driver's license. I also loved being able to work on a product that was fun and that I actually cared about since I'm a big sports and especially soccer fan.`,
+    description: `What a time! We interns shared a hotel and I had just gotten my driver's license. I also loved being able to work on a fun product that I cared about since I'm a big sports (and especially soccer) fan.`,
   },
   {
     id: nanoid(),
@@ -61,7 +61,7 @@ export const experiencesData = [
     url: 'https://www.trinitywallstreet.org/',
     date: 'Jun 2018 - Sep 2019',
     color: 'black',
-    description: `If you're wondering why a church has an IT department, it's because Trinity was given a lot of land by the queen in 1705 and is now a non-profit enterprise funded by its real estate projects. It was lonely being a solo developer here but I appreciated being able to work across all parts of the stack and make design decisions. It was also here that I first learned front-end development. Lastly, I'm proud to have been on an intern team that came up with ideas for Trinity Church's new community center.`,
+    description: `If you're wondering why a church has an IT department, it's because Trinity was given land by the queen in 1705 and is now a non-profit enterprise funded by its real estate projects. It was lonely being a solo developer here but I appreciated being able to make design decisions, work across all parts of the stack, and learn front-end development. Lastly, I'm proud to have been on an intern team that came up with program ideas for Trinity Church's new community center.`,
   },
   {
     id: nanoid(),
@@ -72,7 +72,7 @@ export const experiencesData = [
     url: 'https://stuy.enschool.org/',
     date: 'Class of 2015',
     color: '#21366d',
-    description: `If it hadn't been for Stuyvesant inspiring a love of learning in me, I wouldn't be the person I am today enjoying the classics, museums, and The Economist/New Yorker. I also left this school deeply influenced by its go-getter culture.`,
+    description: `If it hadn't been for Stuyvesant inspiring a love of learning in me, I wouldn't be the person I am today who enjoys museums, classics, journalism, and politics. This school also deeply instilled in me with its go-getter culture.`,
   },
 ];
 
@@ -85,7 +85,7 @@ export const projectsData = [
     info: `An extension that displays companies' Glassdoor ratings on LinkedIn and other job sites.`,
     info2: `This was the first extension that I made and it was out of frustration from constantly searching companies on Glassdoor while applying to jobs. I received lots of love from r/cscareerquestions for making this extension which motivated me to continue doing open-source work.`,
     url: 'https://github.com/CalvinWu4/inDoors',
-    achievement: '500+ Users',
+    achievement: '700+ Users',
   },
   {
     id: nanoid(),
@@ -105,6 +105,7 @@ export const projectsData = [
     info: `A school-agnostic version of the RIT Rate My Professors Extension that I made. To add support for their college's website, students fill out a public Airtable with the site's URL, CSS selectors for the elements containing the professor names, and name of the college as can be found on ratemyprofessors.com. They can then go to the site and click on the extension which prompts for permission to add the ratings.`,
     info2: `I wanted to bring to this extension to my friends who are attending other schools and save college students everywhere from having to create a Rate My Professors extension ever again.`,
     url: 'https://github.com/CalvinWu4/Any-School-Rate-My-Professors-Extension',
+    achievement: '100+ Users',
   },
 ];
 
