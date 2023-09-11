@@ -22,10 +22,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: `I was born and raised in Brooklyn, New York but moved to San Francisco in May 2021 to work for DocuSign.`,
-  paragraphTwo: `In my free time, I enjoy reading, running, biking, badminton, video games, thrifting, finding new recipes, and being outside.`,
-  paragraphThree: `I'm most compatible with people who are interested in history, literature, politics, and philosophy. But, I also feel that life should be lived and not just thought about.`,
-  resume: 'https://1drv.ms/b/s!AoKuSnGKEVCrhPwEG8aBxPOhirwYEw', // if no resume, the button will not show up
+  paragraphOne: `I was born and raised in Brooklyn but moved to San Francisco after college for a tech job.`,
+  paragraphTwo: `When I'm not at work, you can often find me running, biking, roller blading, or playing tennis at Golden Gate Park, hosting a dinner or board game night, at a hacker house party, at a Ocean Beach bonfire, or snowboarding in Tahoe.`,
+  resume: 'https://1drv.ms/b/s!AoKuSnGKEVCrheN2GiWGquLObcON4w?e=IRPBsQ', // if no resume, the button will not show up
 };
 
 // EXPERIENCE DATA
@@ -85,18 +84,17 @@ export const projectsData = [
     info: `An extension that displays companies' Glassdoor ratings on LinkedIn and other job sites.`,
     info2: `This was the first extension that I made and it was out of frustration from constantly searching companies on Glassdoor while applying to jobs. I received lots of love from r/cscareerquestions for making this extension which motivated me to continue doing open-source work.`,
     url: 'https://github.com/CalvinWu4/inDoors',
-    achievement: '700+ Users',
+    achievement: '1200+ Users',
   },
   {
     id: nanoid(),
     img: 'rate-my-professor-rit.png',
     title: 'RIT Rate My Professors Extension',
-    info:
-      'An extension for RIT students that shows the Rate My Professors rating of professors while searching for classes.',
+    info: 'An extension for RIT students that shows the Rate My Professors rating of professors while searching for classes.',
     info2:
       'I noticed that there are dozens of Rate My Professor extensions out there created for different colleges by their students. Despite having already graduated, I decided to create the best version of this extension yet as a thank you to my alma mater.',
     url: 'https://github.com/CalvinWu4/RIT-Rate-My-Professors-Extension',
-    achievement: '150+ Users',
+    achievement: '100+ Users',
   },
   {
     id: nanoid(),
@@ -105,7 +103,7 @@ export const projectsData = [
     info: `A school-agnostic version of the RIT Rate My Professors Extension that I made. To add support for their college's website, students fill out a public Airtable with the site's URL, CSS selectors for the elements containing the professor names, and name of the college as can be found on ratemyprofessors.com. They can then go to the site and click on the extension which prompts for permission to add the ratings.`,
     info2: `I wanted to bring to this extension to my friends who are attending other schools and save college students everywhere from having to create a Rate My Professors extension ever again.`,
     url: 'https://github.com/CalvinWu4/Any-School-Rate-My-Professors-Extension',
-    achievement: '100+ Users',
+    achievement: '500+ Users',
   },
 ];
 
