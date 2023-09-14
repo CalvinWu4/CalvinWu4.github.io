@@ -3,6 +3,7 @@ import rit from '../images/rit.jpg';
 import trinityChurch from '../images/trinity-church.jpg';
 import espn from '../images/espn.jpg';
 import stuyvesant from '../images/stuyvesant.jpg';
+import docusign from '../images/docusign.jpg';
 
 // HEAD DATA
 export const headData = {
@@ -31,6 +32,17 @@ export const aboutData = {
 export const experiencesData = [
   {
     id: nanoid(),
+    img: docusign,
+    organization: 'DocuSign',
+    title: 'Software Engineer',
+    location: 'San Francisco, CA',
+    url: 'https://www.docusign.com/',
+    date: 'Apr 2021 - Aug 2023',
+    color: '#228B22',
+    description: `DocuSign was my first job out of college and allowed me to fulfill my dream of moving to California. I started out as a software development engineer in test and eventually transitioned into a software engineer role. I was the front end engineer in charge of the new document field assist feature.`,
+  },
+  {
+    id: nanoid(),
     img: rit,
     organization: 'Rochester Institute of Technology',
     title: 'BS in Software Engineering, Minor in Business Administration',
@@ -43,13 +55,13 @@ export const experiencesData = [
   {
     id: nanoid(),
     img: espn,
-    organization: 'ESPN (Disney DTCI)',
+    organization: 'ESPN (Walt Disney Direct-to-Consumer & International)',
     title: 'Front End Software Engineer Intern',
     location: 'Bristol, Connecticut',
     url: 'https://www.espn.com/',
     date: 'Sept 2019 - Dec 2019',
     color: '#CD242E',
-    description: `What a time! We interns shared a hotel and I had just gotten my driver's license. I also loved being able to work on a fun product that I cared about since I'm a big sports (and especially soccer) fan.`,
+    description: `Worked on fixing customer-reported bugs and redesigning watchespn.com. During my time here, I shared a hotel with fellow interns and became life-long friends with some of them.`,
   },
   {
     id: nanoid(),
@@ -60,7 +72,7 @@ export const experiencesData = [
     url: 'https://www.trinitywallstreet.org/',
     date: 'Jun 2018 - Sep 2019',
     color: 'black',
-    description: `If you're wondering why a church has an IT department, it's because Trinity was given land by the queen in 1705 and is now a non-profit enterprise funded by its real estate projects. It was lonely being a solo developer here but I appreciated being able to make design decisions, work across all parts of the stack, and learn front-end development. Lastly, I'm proud to have been on an intern team that came up with program ideas for Trinity Church's new community center.`,
+    description: `If you're wondering why a church has an IT department, it's because Trinity was given land by the queen in 1705 and is now a non-profit enterprise funded by its real estate projects. It was lonely being a solo developer here but I appreciated being able to make design decisions, work across all parts of the stack, and learn front-end development. The main project I worked on was creating a year-view web calendar to replace the whiteboard yearly planner that the rector was using.`,
   },
   {
     id: nanoid(),
