@@ -96,7 +96,7 @@ export const projectsData = [
     info: `An extension that displays companies' Glassdoor ratings on LinkedIn and other job sites.`,
     info2: `This was the first extension that I made and it was out of frustration from constantly searching companies on Glassdoor while applying to jobs. I received lots of love from r/cscareerquestions for making this extension which motivated me to continue doing open-source work.`,
     url: 'https://github.com/CalvinWu4/inDoors',
-    achievement: '1200+ Users',
+    achievement: '2000+ Users',
   },
   {
     id: nanoid(),
