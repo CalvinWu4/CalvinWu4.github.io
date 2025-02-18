@@ -24,7 +24,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.png',
   paragraphOne: `I was born and raised in Brooklyn but moved to San Francisco after college to start my career in tech.`,
-  paragraphTwo: `In my free time I enjoy snowboarding, running, reading, and traveling.`,
+  paragraphTwo: `My passions include snowboarding, live music, reading, and traveling. I have a strong interest in healthy living, and I would say that my workout is my favorite part of the day. I enjoy all types of exercise, from running and lifting weights to practicing yoga. Additionally, I am obsessed with contrast therapy.`,
   resume: 'https://1drv.ms/b/c/ab50118a714aae82/EWZwtgCItwZKhm4pxpJZRKEBzzmO7r15QqkZnzd-kDjuvw?e=08aN9X', // if no resume, the button will not show up
 };
 
@@ -34,12 +34,12 @@ export const experiencesData = [
     id: nanoid(),
     img: docusign,
     organization: 'DocuSign',
-    title: 'Software Engineer',
+    title: 'Front End Software Engineer/QA Engineer',
     location: 'San Francisco, CA',
     url: 'https://www.docusign.com/',
     date: "Apr '21 - Aug '23",
     color: '#228B22',
-    description: `DocuSign was my first job out of college and allowed me to fulfill my dream of moving to California. I started out as a software development engineer in test and eventually transitioned into a software engineer role. I was the front end engineer in charge of the new document field assist feature.`,
+    description: `DocuSign was my first job after college, and it allowed me to fulfill my dream of moving to California. I started as a software development engineer in test, where I assisted in migrating the existing Selenium-based test automation to Playwright. Later, I transitioned into a front-end software engineer role, where I led the development of the Document Field Assist feature. This feature utilized AI to predict fields for uploaded documents and was rolled out to thousands of enterprise customers, saving them up to 95% of their time in the envelope sending process.`,
   },
   {
     id: nanoid(),
@@ -50,7 +50,8 @@ export const experiencesData = [
     url: 'https://www.rit.edu/',
     date: 'Class of 2020',
     color: '#F76902',
-    description: `I entered here as a business major because I wasn't confident in my coding skills from high school, but soon decided to embrace the challenge of software engineering. Despite the brutal winters and stressful workloads, I really enjoyed the nerdy culture and suburban peacefulness at RIT.`,
+    description: `I entered RIT as a business major, but soon decided to switch to software engineering. Despite the brutal winters and stressful workloads, I really found a home in the nerdy culture here. For our 4-person senior project, we created a data warehousing ETL service to enable more BI reports from OnGuard, an enterprise grade access control and alarm monitoring system.
+.`,
   },
   {
     id: nanoid(),
@@ -61,7 +62,7 @@ export const experiencesData = [
     url: 'https://www.espn.com/',
     date: "Sep '19 - Dec '19",
     color: '#CD242E',
-    description: `Worked on fixing customer-reported bugs and redesigning watchespn.com. During my time here, I shared a hotel with fellow interns and became life-long friends with some of them.`,
+    description: `At ESPN I worked on fixing customer-reported bugs and redesigning watchespn.com. I also wrote helpful scripts that users could activate to easily change from the dev to prod website and vice-versa. During my time here, I shared a hotel with fellow interns and became life-long friends with them.`,
   },
   {
     id: nanoid(),
@@ -72,7 +73,7 @@ export const experiencesData = [
     url: 'https://www.trinitywallstreet.org/',
     date: "Jun '18 - Sep '19",
     color: 'black',
-    description: `If you're wondering why a church has an IT department, it's because Trinity was given land by the queen in 1705 and is now a non-profit enterprise funded by its real estate projects. It was lonely being a solo developer here but I appreciated being able to make design decisions, work across all parts of the stack, and learn front-end development. The main project I worked on was creating a year-view web calendar to replace the whiteboard yearly planner that the rector was using.`,
+    description: `If you're curious about why a church has an IT department, it's because Trinity was granted land by the queen in 1705 and has since become a non-profit organization funded by its real estate ventures. As a solo developer here, I had the opportunity to make design decisions, work across the stack, and learn front-end development. The main project I focused on was creating a web calendar that displays a year view, intended to replace the whiteboard yearly planner that the rector was using.`,
   },
   {
     id: nanoid(),
@@ -83,7 +84,7 @@ export const experiencesData = [
     url: 'https://stuy.enschool.org/',
     date: 'Class of 2015',
     color: '#21366d',
-    description: `If it hadn't been for Stuyvesant inspiring a love of learning in me, I wouldn't be the person I am today who enjoys museums, classics, journalism, and politics. This school also deeply instilled in me with its go-getter culture.`,
+    description: `If it hadn't been for Stuyvesant, which inspired my love of learning, I wouldn't be the person I am today—someone who enjoys museums, classics, journalism, and politics. This school also instilled a strong go-getter culture in me.`,
   },
 ];
 
