@@ -24,8 +24,8 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.png',
   paragraphOne: `I was born and raised in Brooklyn but moved to San Francisco after college to start my career in tech.`,
-  paragraphTwo: `When I'm not at work, you can often find me running, biking, roller blading, or playing tennis at Golden Gate Park, hosting a dinner or board game night, at a hacker house party, or snowboarding in Tahoe.`,
-  resume: 'https://1drv.ms/b/s!AoKuSnGKEVCrheN2GiWGquLObcON4w?e=pfLK7l', // if no resume, the button will not show up
+  paragraphTwo: `In my free time I enjoy snowboarding, running, reading, and traveling.`,
+  resume: 'https://1drv.ms/b/c/ab50118a714aae82/EWZwtgCItwZKhm4pxpJZRKEBzzmO7r15QqkZnzd-kDjuvw?e=08aN9X', // if no resume, the button will not show up
 };
 
 // EXPERIENCE DATA
