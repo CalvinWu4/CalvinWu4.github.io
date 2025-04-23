@@ -4,6 +4,7 @@ import trinityChurch from '../images/trinity-church.jpg';
 import espn from '../images/espn.jpg';
 import stuyvesant from '../images/stuyvesant.jpg';
 import docusign from '../images/docusign.jpg';
+import prana from '../images/prana.jpg';
 
 // HEAD DATA
 export const headData = {
@@ -30,6 +31,17 @@ export const aboutData = {
 
 // EXPERIENCE DATA
 export const experiencesData = [
+  {
+    id: nanoid(),
+    img: prana,
+    organization: 'Prana',
+    title: 'Founding Full Stack Engineer',
+    location: 'San Francisco, CA',
+    url: 'https://www.prana.health/',
+    date: "Feb '24 - Nov '24",
+    color: 'grey',
+    description: `I joined Prana because I was excited about my friend's vision. Prana is an app to help people track and optimize their health. I along with another engineer built the MVP for the app, spending long days working out of the Salesforce Tower WeWork.`,
+  },
   {
     id: nanoid(),
     img: docusign,
